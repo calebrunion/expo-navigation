@@ -1,0 +1,15 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "shell",
+      "command": "yarn start",
+      "label": "Start",
+      "detail": "expo start --tunnel",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+    },
+  ],
+}
